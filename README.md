@@ -1,8 +1,6 @@
 # Virtual RC Joystick
 
-A small Rust app for flying RealFlight Evolution when the RadioMaster TX15 isn't
-with you. It creates a virtual USB joystick through Linux `uinput`. Proton/Wine
-sees it like any other game controller, so RealFlight can use it.
+A small Rust app for simulating a joystick for flight control. It creates a virtual USB joystick through Linux `uinput`. Proton/Wine sees it like any other game controller, so RealFlight can use it.
 
 ![window](docs/window.png)
 
